@@ -67,7 +67,7 @@ Usage
               <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
             </manifest>
             <manifestEntries>
-              <Implementation-Build>$\{buildNumber}</Implementation-Build>
+              <Implementation-Build>${buildNumber}</Implementation-Build>
             </manifestEntries>
           </archive>
         </configuration>
@@ -92,7 +92,7 @@ Usage
               <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
             </manifest>
             <manifestEntries>
-              <Implementation-Build>$\{buildNumber}</Implementation-Build>
+              <Implementation-Build>${buildNumber}</Implementation-Build>
             </manifestEntries>
           </archive>
         </configuration>
@@ -155,7 +155,7 @@ Usage
 
 +------------------------------------------+
     <configuration>
-      <format>{0,date,yyyy-MM-dd HH:mm:ss}</format>
+      <format>yyyy-MM-dd HH:mm:ss</format>
       <items>
         <item>timestamp</item>
       </items>
@@ -222,7 +222,7 @@ Usage
   If you need to execute the plugin on machine without any svn in the path you can configure
   the mojo to use the svnjava provider.
 
-  NOTE the svnjava provider use the svnjava scm provider implementation {{{http://code.google.com/a/apache-extras.org/p/maven-scm-provider-svnjava/}maven-scm-provider-svnjava}} which rely on svnkit version.
+  NOTE the svnjava provider use the svnjava scm provider implementation {{{https://github.com/olamy/maven-scm-provider-svnjava}maven-scm-provider-svnjava}} which rely on svnkit version.
 
 
 +--
