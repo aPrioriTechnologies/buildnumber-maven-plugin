@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>buildnumber-maven-plugin</artifactId>
-  <version>3.0.0-apriori-2</version>
+  <version>3.0.0-apriori-3</version>
   <packaging>maven-plugin</packaging>
 
   <name>Build Number Maven Plugin</name>
